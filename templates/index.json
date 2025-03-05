@@ -175,7 +175,7 @@
           "settings": {
             "collection": "best",
             "products_count": 8,
-            "title": "",
+            "title": "<strong>BEST</strong>",
             "link_url": "",
             "link_text": "View all"
           }
@@ -202,9 +202,9 @@
         "collection_WMLhtN": {
           "type": "collection",
           "settings": {
-            "collection": "new-25-spring",
+            "collection": "new-2025-spring",
             "products_count": 8,
-            "title": "",
+            "title": "<strong>New 25 Spring</strong>",
             "link_url": "",
             "link_text": "View all"
           }
@@ -238,7 +238,7 @@
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
         "subheading": "",
-        "title": "Recently viewed",
+        "title": "<strong>Recently viewed</strong>",
         "content": ""
       }
     },
@@ -248,7 +248,7 @@
         "heading_aNDyaT": {
           "type": "heading",
           "settings": {
-            "text": "About",
+            "text": "<strong>About</strong>",
             "heading_tag": "h1"
           }
         }
@@ -257,7 +257,7 @@
         "heading_aNDyaT"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "separate_section_with_border": true,
         "content_width": "lg",
         "text_position": "center",
@@ -267,12 +267,12 @@
     "image_with_text_overlay_BLpPfq": {
       "type": "image-with-text-overlay",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "image_size": "auto",
         "image": "shopify://shop_images/about_3.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
-        "remove_vertical_spacing": true,
+        "remove_vertical_spacing": false,
         "content_width": "xl",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -332,7 +332,7 @@
         "text_alignment": "center",
         "spacing": "md",
         "subheading": "",
-        "title": "LOOKBOOK",
+        "title": "<strong>LOOKBOOK</strong>",
         "content": ""
       }
     }
