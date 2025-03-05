@@ -167,6 +167,42 @@
         "controls_color": "#ffffff"
       }
     },
+    "scrolling_content_c6dhej": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_wJjyPA": {
+          "type": "text",
+          "settings": {
+            "text": "2025 New Start."
+          }
+        },
+        "text_8Tbc8F": {
+          "type": "text",
+          "settings": {
+            "text": "Hello Japan, we are Apricot Studios."
+          }
+        }
+      },
+      "block_order": [
+        "text_wJjyPA",
+        "text_8Tbc8F"
+      ],
+      "settings": {
+        "separate_section_with_border": false,
+        "scrolling_speed": 0.2,
+        "scroll_direction": "left",
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 16,
+        "section_vertical_spacing_mobile": 10,
+        "section_vertical_spacing_desktop": 20,
+        "item_horizontal_spacing_mobile": 80,
+        "item_horizontal_spacing_desktop": 120,
+        "background": "",
+        "text_color": ""
+      }
+    },
     "featured-collections": {
       "type": "featured-collections",
       "blocks": {
@@ -175,7 +211,7 @@
           "settings": {
             "collection": "best",
             "products_count": 8,
-            "title": "<strong>BEST</strong>",
+            "title": "<strong>⭐️BEST</strong>",
             "link_url": "",
             "link_text": "View all"
           }
@@ -204,7 +240,7 @@
           "settings": {
             "collection": "new-2025-spring",
             "products_count": 8,
-            "title": "<strong>New 25 Spring</strong>",
+            "title": "<strong>❤️ New 25 Spring</strong>",
             "link_url": "",
             "link_text": "View all"
           }
@@ -238,7 +274,7 @@
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
         "subheading": "",
-        "title": "<strong>Recently viewed</strong>",
+        "title": "<strong>👀 Recently viewed</strong>",
         "content": ""
       }
     },
@@ -266,6 +302,21 @@
     },
     "image_with_text_overlay_BLpPfq": {
       "type": "image-with-text-overlay",
+      "blocks": {
+        "link_eDimQE": {
+          "type": "link",
+          "settings": {
+            "text": "",
+            "url": "shopify://pages/about"
+          }
+        }
+      },
+      "block_order": [
+        "link_eDimQE"
+      ],
+      "custom_css": [
+        ".section-spacing {padding-block-start: 0;}"
+      ],
       "settings": {
         "color_scheme": "scheme-3",
         "image_size": "auto",
@@ -339,6 +390,7 @@
   },
   "order": [
     "slideshow",
+    "scrolling_content_c6dhej",
     "featured-collections",
     "featured_collections_QpQCga",
     "recently_viewed_products_3WgXED",
