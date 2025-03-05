@@ -258,7 +258,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-3",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "content_width": "lg",
         "text_position": "center",
         "remove_vertical_spacing": false
@@ -324,7 +324,7 @@
       ],
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "columns_per_row": 3,
         "stack_on_mobile": false,
         "overlap_image": false,
