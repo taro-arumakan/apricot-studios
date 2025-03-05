@@ -16,6 +16,15 @@ function reveal(offset) {
       }
     }
   });
+  var wobbles = document.querySelectorAll('.h2');
+  wobbles.forEach(element => {
+    var elementTop = element.getBoundingClientRect().top;
+    if (elementTop < windowHeight - offset) {
+      if (![...element.classList].includes('animate__animated')) {
+        element.classList.add('animate__animated', 'animate__wobble', 'animate__infinite');
+      }
+    }
+  })
 }
 
 function split_node_to_delayed_spans(n, interval) {
