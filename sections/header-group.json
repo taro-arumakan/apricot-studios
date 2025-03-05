@@ -38,12 +38,12 @@
       "settings": {
         "color_scheme": "",
         "enable_sticky": true,
-        "hide_on_scroll": false,
-        "show_separation_border": true,
+        "hide_on_scroll": true,
+        "show_separation_border": false,
         "reduce_padding": false,
         "logo": "{{ shop.brand.logo }}",
         "logo_max_width": 140,
-        "logo_mobile_max_width": 100,
+        "logo_mobile_max_width": 140,
         "menu": "main-menu",
         "sidebar_menu": "",
         "menu_open_trigger": "hover",
@@ -55,9 +55,9 @@
         "sidebar_open_second_level_menus": false,
         "layout": "logo_left_navigation_inline",
         "show_icons": true,
-        "show_country_selector": true,
+        "show_country_selector": false,
         "show_country_name": false,
-        "show_country_flag": true,
+        "show_country_flag": false,
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff"
       }
