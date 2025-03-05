@@ -29,6 +29,10 @@
       <link rel="preload" href="{{ settings.text_font | font_url }}" as="font" type="font/woff2" crossorigin>
     {%- endunless -%}
 
+    <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+    <script src="{{ 'animate.js' | asset_url }}" defer></script>
+    {{- 'animate.css' | asset_url | stylesheet_tag: preload: true -}}
+
     {%- render 'social-meta-tags' -%}
     {%- render 'microdata-schema' -%}
     {%- render 'css-variables' -%}
@@ -62,6 +66,31 @@
     <script type="module" src="{{ 'vendor.min.js' | asset_url }}"></script>
     <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
 
+    <script type="text/javascript">
+      function registerTouchEvents() {
+        // all product card elements with secondary image
+        var productCards = document.querySelectorAll('.product-card__figure:has(.product-card__image--secondary)');
+        // add touchstart and touchend event
+        for(let productCard of productCards) {
+           productCard.addEventListener('touchstart', (e) => {
+            const secondaryImage = productCard.querySelector('.product-card__image--secondary');
+            const primaryImage = productCard.querySelector('.product-card__image--primary');
+            secondaryImage.style.opacity = 1;
+            primaryImage.style.opacity = 0;
+            secondaryImage.style.visibility = 'visible';
+          });
+          productCard.addEventListener('touchend', () => {
+            const secondaryImage = productCard.querySelector('.product-card__image--secondary');
+            const primaryImage = productCard.querySelector('.product-card__image--primary');
+            secondaryImage.style.opacity = 0;
+            primaryImage.style.opacity = 1;
+            secondaryImage.style.visibility = 'hidden';
+          });
+        }
+      }
+      window.onload = registerTouchEvents;
+    </script>
+
     {{ content_for_header }}
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
@@ -69,11 +98,11 @@
 
   {% liquid
     assign features_class = ''
-  
+
     if settings.show_button_transition
       assign features_class = features_class | append: 'features--button-transition '
     endif
-  
+
     if settings.show_image_zoom_on_hover
       assign features_class = features_class | append: 'features--zoom-image '
     endif
