@@ -18,6 +18,61 @@
         "page_width": "xs"
       }
     },
+    "rich_text_MnHT7T": {
+      "type": "rich-text",
+      "blocks": {
+        "image_9za677": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Where_the_Family_Begins_B.png",
+            "width_mode": "custom",
+            "max_width": 300,
+            "mobile_max_width": 300
+          }
+        },
+        "liquid_r8tPey": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<br/>\n<br/>\n<br/>"
+          }
+        },
+        "richtext_Xnidf3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>初めてパパになった日の感動<br/>その想いを込めて作ります<br/><br/>優先したいのは、元気な子供達が自由でいられるリラックスしたフィット。<br/>ユニークな色や素材を使いながら、子供を子供らしく育てられるデザインを提案します。<br/><br/>子供と一緒に成長していく<br/>パパが作る温かくて優しい子供服</p>"
+          }
+        },
+        "liquid_3LPmgz": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<br/>\n<br/>\n<br/>"
+          }
+        },
+        "image_8r6Br9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/as_logo.png",
+            "width_mode": "custom",
+            "max_width": 230,
+            "mobile_max_width": 170
+          }
+        }
+      },
+      "block_order": [
+        "image_9za677",
+        "liquid_r8tPey",
+        "richtext_Xnidf3",
+        "liquid_3LPmgz",
+        "image_8r6Br9"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "image_with_text_overlay_wdJXNj": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -33,10 +88,36 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "rich_text_DxmtyE": {
+      "type": "rich-text",
+      "blocks": {
+        "image_wdn9iP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/house_of_apricot.jpg",
+            "width_mode": "custom",
+            "max_width": 300,
+            "mobile_max_width": 300
+          }
+        }
+      },
+      "block_order": [
+        "image_wdn9iP"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
     "main",
-    "image_with_text_overlay_wdJXNj"
+    "rich_text_MnHT7T",
+    "image_with_text_overlay_wdJXNj",
+    "rich_text_DxmtyE"
   ]
 }
