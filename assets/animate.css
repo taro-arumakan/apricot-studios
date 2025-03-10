@@ -114,28 +114,28 @@ print {
   }
 
   3% {
-    -webkit-transform: translate3d(-25%, 0, 0) rotate(-5deg);
-    transform: translate3d(-25%, 0, 0) rotate(-5deg)
+    -webkit-transform: translate3d(-6.25%, 0, 0) rotate(-2.5deg);
+    transform: translate3d(-6.25%, 0, 0) rotate(-2.5deg)
   }
 
   6% {
-    -webkit-transform: translate3d(20%, 0, 0) rotate(3deg);
-    transform: translate3d(20%, 0, 0) rotate(3deg)
+    -webkit-transform: translate3d(5%, 0, 0) rotate(1.5deg);
+    transform: translate3d(5%, 0, 0) rotate(1.5deg)
   }
 
   9% {
-    -webkit-transform: translate3d(-15%, 0, 0) rotate(-3deg);
-    transform: translate3d(-15%, 0, 0) rotate(-3deg)
+    -webkit-transform: translate3d(-3.75%, 0, 0) rotate(-1.5deg);
+    transform: translate3d(-3.75%, 0, 0) rotate(-1.5deg)
   }
 
   12% {
-    -webkit-transform: translate3d(10%, 0, 0) rotate(2deg);
-    transform: translate3d(10%, 0, 0) rotate(2deg)
+    -webkit-transform: translate3d(2.5%, 0, 0) rotate(1deg);
+    transform: translate3d(2.5%, 0, 0) rotate(1deg)
   }
 
   15% {
-    -webkit-transform: translate3d(-5%, 0, 0) rotate(-1deg);
-    transform: translate3d(-5%, 0, 0) rotate(-1deg)
+    -webkit-transform: translate3d(-1.25%, 0, 0) rotate(-1deg);
+    transform: translate3d(-1.25%, 0, 0) rotate(-1deg)
   }
 
   20% {
@@ -151,28 +151,28 @@ print {
   }
 
   3% {
-    -webkit-transform: translate3d(-25%, 0, 0) rotate(-5deg);
-    transform: translate3d(-25%, 0, 0) rotate(-5deg)
+    -webkit-transform: translate3d(-6.25%, 0, 0) rotate(-2.5deg);
+    transform: translate3d(-6.25%, 0, 0) rotate(-2.5deg)
   }
 
   6% {
-    -webkit-transform: translate3d(20%, 0, 0) rotate(3deg);
-    transform: translate3d(20%, 0, 0) rotate(3deg)
+    -webkit-transform: translate3d(5%, 0, 0) rotate(1.5deg);
+    transform: translate3d(5%, 0, 0) rotate(1.5deg)
   }
 
   9% {
-    -webkit-transform: translate3d(-15%, 0, 0) rotate(-3deg);
-    transform: translate3d(-15%, 0, 0) rotate(-3deg)
+    -webkit-transform: translate3d(-3.75%, 0, 0) rotate(-1.5deg);
+    transform: translate3d(-3.75%, 0, 0) rotate(-1.5deg)
   }
 
   12% {
-    -webkit-transform: translate3d(10%, 0, 0) rotate(2deg);
-    transform: translate3d(10%, 0, 0) rotate(2deg)
+    -webkit-transform: translate3d(2.5%, 0, 0) rotate(1deg);
+    transform: translate3d(2.5%, 0, 0) rotate(1deg)
   }
 
   15% {
-    -webkit-transform: translate3d(-5%, 0, 0) rotate(-1deg);
-    transform: translate3d(-5%, 0, 0) rotate(-1deg)
+    -webkit-transform: translate3d(-1.25%, 0, 0) rotate(-1deg);
+    transform: translate3d(-1.25%, 0, 0) rotate(-1deg)
   }
 
   20% {
