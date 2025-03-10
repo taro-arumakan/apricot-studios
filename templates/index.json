@@ -341,7 +341,7 @@
         "image_with_text_UUHqiC": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/24_Autumn_Sample.png",
+            "image": "shopify://shop_images/24winter_cover.jpg",
             "title": "24 Winter",
             "heading_tag": "h3",
             "content": "",
@@ -352,7 +352,7 @@
         "image_with_text_PT8YHF": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/24_Winter_Sample.png",
+            "image": "shopify://shop_images/24autumn_cover.jpg",
             "title": "24 Autumn",
             "heading_tag": "h3",
             "content": "",
@@ -363,7 +363,7 @@
         "image_with_text_AprbLU": {
           "type": "image_with_text",
           "settings": {
-            "image": "shopify://shop_images/24_Autumn_Sample.png",
+            "image": "shopify://shop_images/23Winter_cover.jpg",
             "title": "23 Winter",
             "heading_tag": "h3",
             "content": "",
@@ -374,6 +374,7 @@
         "image_with_text_VKQHz9": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/23Atumn_cover.jpg",
             "title": "23 Autumn",
             "heading_tag": "h3",
             "content": "",
@@ -398,7 +399,7 @@
         "text_alignment": "center",
         "spacing": "md",
         "subheading": "",
-        "title": "<strong>LOOKBOOK</strong>",
+        "title": "<a href=\"/pages/lookbook\" title=\"LOOKBOOK\"><strong>LOOKBOOK</strong></a>",
         "content": ""
       }
     }

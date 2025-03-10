@@ -1,0 +1,120 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "rich_text_RRDYNr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Tcct4J": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>LOOKBOOK</strong>",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Tcct4J"
+      ],
+      "custom_css": [
+        ".container {width: fit-content; margin: auto;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "multi_column_GhacgE": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_QkpHhK": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/24winter_cover.jpg",
+            "title": "24 WINTER",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "shopify://pages/lookbook-2024-winter",
+            "link_text": ""
+          }
+        },
+        "image_with_text_TdA7QY": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/24autumn_cover.jpg",
+            "title": "24 AUTUMN",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "shopify://pages/lookbook-2024-autumn",
+            "link_text": ""
+          }
+        },
+        "image_with_text_9hzrqV": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/23Winter_cover.jpg",
+            "title": "23 WINTER",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "shopify://pages/lookbook-2023-winter",
+            "link_text": ""
+          }
+        },
+        "image_with_text_fAeFpA": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/23Atumn_cover.jpg",
+            "title": "23 AUTUMN",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "shopify://pages/lookbook-2023-autumn",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_QkpHhK",
+        "image_with_text_TdA7QY",
+        "image_with_text_9hzrqV",
+        "image_with_text_fAeFpA"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "columns_per_row": 2,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_RRDYNr",
+    "multi_column_GhacgE"
+  ]
+}
