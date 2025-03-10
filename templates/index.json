@@ -292,6 +292,9 @@
       "block_order": [
         "heading_aNDyaT"
       ],
+      "custom_css": [
+        ".container {width: fit-content; margin: auto;}"
+      ],
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": false,
@@ -339,10 +342,10 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/24_Autumn_Sample.png",
-            "title": "25 Spring",
+            "title": "24 Winter",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
+            "content": "",
+            "link_url": "shopify://pages/lookbook-2024-winter",
             "link_text": ""
           }
         },
@@ -350,10 +353,10 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/24_Winter_Sample.png",
-            "title": "24 Winter",
+            "title": "24 Autumn",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
+            "content": "",
+            "link_url": "shopify://pages/lookbook-2024-autumn",
             "link_text": ""
           }
         },
@@ -361,10 +364,20 @@
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/24_Autumn_Sample.png",
-            "title": "24 Autumn",
+            "title": "23 Winter",
             "heading_tag": "h3",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
+            "content": "",
+            "link_url": "shopify://pages/lookbook-2023-winter",
+            "link_text": ""
+          }
+        },
+        "image_with_text_VKQHz9": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "23 Autumn",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "shopify://pages/lookbook-2023-autumn",
             "link_text": ""
           }
         }
@@ -372,12 +385,13 @@
       "block_order": [
         "image_with_text_UUHqiC",
         "image_with_text_PT8YHF",
-        "image_with_text_AprbLU"
+        "image_with_text_AprbLU",
+        "image_with_text_VKQHz9"
       ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "columns_per_row": 3,
+        "columns_per_row": 4,
         "stack_on_mobile": false,
         "overlap_image": false,
         "content_alignment": "center",
