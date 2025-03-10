@@ -97,7 +97,13 @@ Supported variables
 
                   <div class="{{ wrapper_class_list }}">
                     {% liquid
+                      assign allowed_tag_values = "Life,Top,Outer,Setup,Bottom,INDOORWEAR,ACC" | split: ','
                       for filter_value in filter.values
+                        if filter.param_name == 'filter.p.tag'
+                          unless allowed_tag_values contains filter_value.label
+                            continue
+                          endunless
+                        endif
                         assign value_id_prefix = id_prefix | append: '-' | append: forloop.index
 
                         if filter.presentation == 'image'
