@@ -24,37 +24,49 @@
         "image_VwhR97": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/LOOKBOOK_24winter1.jpg"
+            "image": "shopify://shop_images/LOOKBOOK_23autumn1.jpg"
           }
         },
         "image_qnWtxz": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/LOOKBOOK_24winter2.jpg"
+            "image": "shopify://shop_images/LOOKBOOK_23autumn2.jpg"
           }
         },
         "image_rnyUbk": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/LOOKBOOK_24winter3.jpg"
+            "image": "shopify://shop_images/LOOKBOOK_23autumn3.jpg"
           }
         },
         "image_peCtP6": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/LOOKBOOK_24winter4.jpg"
+            "image": "shopify://shop_images/LOOKBOOK_23autumn4.jpg"
           }
         },
         "image_ytJgeg": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/LOOKBOOK_24winter5.jpg"
+            "image": "shopify://shop_images/LOOKBOOK_23autumn5.jpg"
           }
         },
         "image_bEff9k": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/LOOKBOOK_24winter6.jpg"
+            "image": "shopify://shop_images/LOOKBOOK_23autumn6.jpg"
+          }
+        },
+        "image_qVfpBq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LOOKBOOK_23autumn7.jpg"
+          }
+        },
+        "image_aTrjhC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LOOKBOOK_23autumn8.jpg"
           }
         }
       },
@@ -64,7 +76,9 @@
         "image_rnyUbk",
         "image_peCtP6",
         "image_ytJgeg",
-        "image_bEff9k"
+        "image_bEff9k",
+        "image_qVfpBq",
+        "image_aTrjhC"
       ],
       "settings": {
         "color_scheme": "",

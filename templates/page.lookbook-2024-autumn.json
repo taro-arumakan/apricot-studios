@@ -24,37 +24,43 @@
         "image_VwhR97": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/LOOKBOOK_24winter1.jpg"
+            "image": "shopify://shop_images/LOOKBOOK_24autumn1.jpg"
           }
         },
         "image_qnWtxz": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/LOOKBOOK_24winter2.jpg"
+            "image": "shopify://shop_images/LOOKBOOK_24autumn2.jpg"
           }
         },
         "image_rnyUbk": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/LOOKBOOK_24winter3.jpg"
+            "image": "shopify://shop_images/LOOKBOOK_24autumn3.jpg"
           }
         },
         "image_peCtP6": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/LOOKBOOK_24winter4.jpg"
+            "image": "shopify://shop_images/LOOKBOOK_24autumn4.jpg"
           }
         },
         "image_ytJgeg": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/LOOKBOOK_24winter5.jpg"
+            "image": "shopify://shop_images/LOOKBOOK_24autumn5.jpg"
           }
         },
         "image_bEff9k": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/LOOKBOOK_24winter6.jpg"
+            "image": "shopify://shop_images/LOOKBOOK_24autumn6.jpg"
+          }
+        },
+        "image_biBRwk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LOOKBOOK_24autumn7.jpg"
           }
         }
       },
@@ -64,7 +70,8 @@
         "image_rnyUbk",
         "image_peCtP6",
         "image_ytJgeg",
-        "image_bEff9k"
+        "image_bEff9k",
+        "image_biBRwk"
       ],
       "settings": {
         "color_scheme": "",
