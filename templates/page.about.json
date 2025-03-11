@@ -26,44 +26,13 @@
           "settings": {
             "image": "shopify://shop_images/Where_the_Family_Begins_B.png",
             "width_mode": "custom",
-            "max_width": 300,
-            "mobile_max_width": 300
-          }
-        },
-        "liquid_r8tPey": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<br/>\n<br/>\n<br/>"
-          }
-        },
-        "richtext_Xnidf3": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>初めてパパになった日の感動<br/>その想いを込めて作ります<br/><br/>優先したいのは、元気な子供達が自由でいられるリラックスしたフィット。<br/>ユニークな色や素材を使いながら、子供を子供らしく育てられるデザインを提案します。<br/><br/>子供と一緒に成長していく<br/>パパが作る温かくて優しい子供服</p>"
-          }
-        },
-        "liquid_3LPmgz": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<br/>\n<br/>\n<br/>"
-          }
-        },
-        "image_8r6Br9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/as_logo.png",
-            "width_mode": "custom",
-            "max_width": 230,
-            "mobile_max_width": 170
+            "max_width": 200,
+            "mobile_max_width": 200
           }
         }
       },
       "block_order": [
-        "image_9za677",
-        "liquid_r8tPey",
-        "richtext_Xnidf3",
-        "liquid_3LPmgz",
-        "image_8r6Br9"
+        "image_9za677"
       ],
       "settings": {
         "color_scheme": "scheme-3",
@@ -73,12 +42,13 @@
         "remove_vertical_spacing": false
       }
     },
-    "image_with_text_overlay_wdJXNj": {
+    "image_with_text_overlay_z8tUfD": {
       "type": "image-with-text-overlay",
       "settings": {
         "color_scheme": "",
         "image_size": "auto",
         "image": "shopify://shop_images/about_1.jpg",
+        "image_url": "",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
@@ -89,21 +59,204 @@
         "overlay_opacity": 0
       }
     },
+    "rich_text_Rp9Lg8": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_8Jrxw6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>子供が生まれ、<br/>お母さんお父さんと過ごす<br/>二度と来ない時間。</p><p>そんな、家族の最も貴重な時間を密に、<br/>無駄なく、幸福に満ちたものにしたい。<br/>そんな想いを込めながら、パパからの目線で作る<br/>ソウル生まれのブランドがAPRICOT STUDIOSです。</p><h3><strong>『家族がはじまるところ』</strong></h3><p>あふれる情報と刺激的な環境。<br/>子供を子供らしく育てることは<br/>思ったより簡単ではありません。</p><p>快適で自然であるべき子供との瞬間、<br/>シンプルだけど美しく実用的なデザイン、<br/>育児のストレスを減らし、<br/>自然から生まれる子供の服、<br/>何気ない瞬間を特別にするライフスタイルの提案で、<br/>家族の時間をより価値のあるものにします。</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_8Jrxw6"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "rich_text_DxmtyE": {
       "type": "rich-text",
       "blocks": {
         "image_wdn9iP": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/house_of_apricot.jpg",
+            "image": "shopify://shop_images/as_logo.png",
             "width_mode": "custom",
-            "max_width": 300,
-            "mobile_max_width": 300
+            "max_width": 220,
+            "mobile_max_width": 100
           }
         }
       },
       "block_order": [
         "image_wdn9iP"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "custom_liquid_i3Y4pE": {
+      "type": "custom-liquid",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"padding-bottom:5vh\" />",
+        "text_alignment": "center"
+      }
+    },
+    "rich_text_PUP9tY": {
+      "type": "rich-text",
+      "blocks": {
+        "image_8dUXFh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/house_of_apricot.jpg",
+            "width_mode": "custom",
+            "max_width": 300,
+            "mobile_max_width": 150
+          }
+        }
+      },
+      "block_order": [
+        "image_8dUXFh"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": false,
+        "content_width": "lg",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_overlay_wdJXNj": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "image": "shopify://shop_images/about_house_of_apricot.jpg",
+        "image_url": "",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_gRWJib": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RFazRT": {
+          "type": "heading",
+          "settings": {
+            "text": "Seoul Forest House",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_76FBBi": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>서울 성동구 서울숲2길 40-11 2F</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RFazRT",
+        "richtext_76FBBi"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "custom_liquid_Ypyz4h": {
+      "type": "custom-liquid",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"padding-bottom:8vh\" />",
+        "text_alignment": "center"
+      }
+    },
+    "rich_text_E7KDcB": {
+      "type": "rich-text",
+      "blocks": {
+        "image_eQgxnG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/about_the_hyundai_logo.png",
+            "width_mode": "custom",
+            "max_width": 180,
+            "mobile_max_width": 120
+          }
+        }
+      },
+      "block_order": [
+        "image_eQgxnG"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": false,
+        "content_width": "lg",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_overlay_UNNLd7": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "image": "shopify://shop_images/about_the_hyundai.jpg",
+        "image_url": "",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_jdB3R7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_f9fJjG": {
+          "type": "heading",
+          "settings": {
+            "text": "Pangyo House",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_8fejLA": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>경기 성남시 분당구 판교역로 146번길 20 현대백<br/>화점 판교점 5F</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_f9fJjG",
+        "richtext_8fejLA"
       ],
       "settings": {
         "color_scheme": "scheme-3",
@@ -117,7 +270,16 @@
   "order": [
     "main",
     "rich_text_MnHT7T",
+    "image_with_text_overlay_z8tUfD",
+    "rich_text_Rp9Lg8",
+    "rich_text_DxmtyE",
+    "custom_liquid_i3Y4pE",
+    "rich_text_PUP9tY",
     "image_with_text_overlay_wdJXNj",
-    "rich_text_DxmtyE"
+    "rich_text_gRWJib",
+    "custom_liquid_Ypyz4h",
+    "rich_text_E7KDcB",
+    "image_with_text_overlay_UNNLd7",
+    "rich_text_jdB3R7"
   ]
 }
