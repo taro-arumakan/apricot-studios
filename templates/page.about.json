@@ -177,6 +177,10 @@
         "heading_RFazRT",
         "richtext_76FBBi"
       ],
+      "custom_css": [
+        ".container {width: fit-content; margin: auto;}",
+        ".section-spacing {padding-block: 1.75rem;}"
+      ],
       "settings": {
         "color_scheme": "scheme-3",
         "separate_section_with_border": true,
@@ -257,6 +261,10 @@
       "block_order": [
         "heading_f9fJjG",
         "richtext_8fejLA"
+      ],
+      "custom_css": [
+        ".container {width: fit-content; margin: auto;}",
+        ".section-spacing {padding-block: 1.75rem;}"
       ],
       "settings": {
         "color_scheme": "scheme-3",
