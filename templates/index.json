@@ -293,7 +293,8 @@
         "heading_aNDyaT"
       ],
       "custom_css": [
-        ".container {width: fit-content; margin: auto;}"
+        ".container {width: fit-content; margin: auto;}",
+        ".section-spacing {padding-block: 1.75rem;}"
       ],
       "settings": {
         "color_scheme": "scheme-3",
@@ -318,7 +319,9 @@
         "link_eDimQE"
       ],
       "custom_css": [
-        ".section-spacing {padding-block-start: 0;}"
+        ".section-spacing {padding-block-start: 0;}",
+        "image-with-text-overlay {width: 95.8%;}",
+        ".content-over-media > picture img {border-radius: 0 25px 25px 0;}"
       ],
       "settings": {
         "color_scheme": "scheme-3",
