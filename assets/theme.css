@@ -2901,6 +2901,7 @@ tr[onclick]:hover {
   place-items: center;
   display: grid;
   position: relative;
+  box-shadow: -0.7px -0.7px #a4a4a4 inset;
 }
 
 .color-swatch.is-disabled:before {
@@ -2919,6 +2920,7 @@ tr[onclick]:hover {
   --swatch-disabled-margin: 0;
   --swatch-disabled-strike-color: currentColor;
   border-color: currentColor;
+  box-shadow: none;
 }
 
 :focus-visible + .color-swatch {
