@@ -17,7 +17,7 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "税込30,000円以上で送料無料！"
+            "text": "🚚 税込15,000円以上で送料無料！"
           }
         }
       },
@@ -29,8 +29,8 @@
         "enable_sticky": false,
         "autoplay": true,
         "cycle_speed": 5,
-        "desktop_font_size": 11,
-        "mobile_font_size": 10
+        "desktop_font_size": 12,
+        "mobile_font_size": 11
       }
     },
     "header": {
@@ -53,7 +53,7 @@
         "sidebar_text_font": "heading",
         "sidebar_show_dividers": true,
         "sidebar_open_second_level_menus": false,
-        "layout": "logo_left_navigation_inline",
+        "layout": "logo_center_navigation_below",
         "show_icons": true,
         "show_country_selector": false,
         "show_country_name": false,
