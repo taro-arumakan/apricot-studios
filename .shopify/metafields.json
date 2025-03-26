@@ -31,16 +31,6 @@
       }
     },
     {
-      "key": "product_description_html",
-      "namespace": "custom",
-      "name": "product_description_html",
-      "description": "",
-      "type": {
-        "name": "multi_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
       "key": "queries",
       "namespace": "shopify--discovery--product_search_boost",
       "name": "Search product boosts",
@@ -78,6 +68,16 @@
       "type": {
         "name": "list.product_reference",
         "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "size_table_html",
+      "namespace": "custom",
+      "name": "size_table_html",
+      "description": "",
+      "type": {
+        "name": "multi_line_text_field",
+        "category": "TEXT"
       }
     }
   ],
