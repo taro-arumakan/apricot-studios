@@ -97,28 +97,6 @@
             "page": "product-care"
           }
         },
-        "accordion_rrWxwf": {
-          "type": "accordion",
-          "settings": {
-            "show_below_gallery": false,
-            "icon": "none",
-            "title": "サイズ",
-            "content": "",
-            "liquid": "{{ product.metafields.custom.size_table_html }}",
-            "page": ""
-          }
-        },
-        "accordion_gyFmq3": {
-          "type": "accordion",
-          "settings": {
-            "show_below_gallery": false,
-            "icon": "none",
-            "title": "",
-            "content": "",
-            "liquid": "",
-            "page": "product-care"
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -184,23 +162,6 @@
         "vertical_spacing_factor": 1,
         "subheading": "",
         "title": "Related products",
-        "content": ""
-      }
-    },
-    "recently_viewed_products_AJwAFM": {
-      "type": "recently-viewed-products",
-      "settings": {
-        "separate_section_with_border": true,
-        "color_scheme": "",
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_count": 9,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "",
-        "title": "Recently Viewed",
         "content": ""
       }
     },
