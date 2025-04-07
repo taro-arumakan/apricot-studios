@@ -58,6 +58,12 @@
             "payment_button_text_color": ""
           }
         },
+        "text_xeYwHJ": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>商品の到着は、支払い完了後10営業日が目安となります。</strong></h5><h6>※生産上の都合によりお届け予定日が前後する場合もございます。発送時期はあくまでも目安としてご確認ください。</h6>"
+          }
+        },
         "accordion_ijj9cY": {
           "type": "accordion",
           "settings": {
@@ -67,6 +73,28 @@
             "content": "{{ product.metafields.custom.product_description | metafield_tag }}",
             "liquid": "",
             "page": ""
+          }
+        },
+        "accordion_rrWxwf": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "サイズ",
+            "content": "",
+            "liquid": "{{ product.metafields.custom.size_table_html }}",
+            "page": ""
+          }
+        },
+        "accordion_gyFmq3": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "",
+            "content": "",
+            "liquid": "",
+            "page": "product-care"
           }
         },
         "accordion_rrWxwf": {
@@ -117,11 +145,15 @@
         "quantity_selector",
         "payment_terms",
         "buy_buttons",
+        "text_xeYwHJ",
         "accordion_ijj9cY",
         "accordion_rrWxwf",
         "accordion_gyFmq3",
         "description",
         "complementary_products"
+      ],
+      "custom_css": [
+        "h5 > strong {color: indianred;}"
       ],
       "settings": {
         "color_scheme": "",
@@ -152,6 +184,23 @@
         "vertical_spacing_factor": 1,
         "subheading": "",
         "title": "Related products",
+        "content": ""
+      }
+    },
+    "recently_viewed_products_AJwAFM": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "separate_section_with_border": true,
+        "color_scheme": "",
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_count": 9,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "Recently Viewed",
         "content": ""
       }
     },
