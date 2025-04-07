@@ -267,6 +267,9 @@
         "image_DkqXb6",
         "image_wKb4A4"
       ],
+      "custom_css": [
+        "carousel-navigation {--text-color: 255 209 179 !important;}"
+      ],
       "settings": {
         "allow_transparent_header": true,
         "show_next_section_button": false,
