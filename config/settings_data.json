@@ -26,6 +26,13 @@
     "color_swatch_config": "GREEN: #008000\nNAVY: #000080\nLAVENDER: #E6E6FA\nBROWN: #A52A2A\nBLUE: #cfdde8\nAPRICOT: #FBCEB1\nORANGE: #FFA500\nWHITE: #FFFFFF\nBEIGE: #F5F5DC\nBLACK: #000000\nIVORY: #FFFFF0\nPINK: #FFC0CB\nCHECK: #D3D3D3\nSILVER: #C0C0C0\nOLIVE: #808000\nVIOLET: #EE82EE\nRED: #FF0000\nYELLOW: #f2f102\nGRAY: #808080\nCREAM: #FFFDD0\nMID BLUE: #cfdde8\nMELANGE GRAY: #A9A9A9\nSKY BLUE: #87CEEB\nKHAKI: #C3B091\nSKY: #87CEEB\nLIGHT GREEN: #90EE90\nLIGHT BLUE: #ADD8E6\nMINT: #dbe0dc\nMUSTARD: #FFDB58\nCHACOAL: #36454F\nBUTTER: #F3E5AB\nOATMEAL: #E3D9C6\nPURPLE: #800080\nCHARCOAL: #36454F\nRed Assorted (3 Colors): #E74C3C\nOatmeal Assorted (3 Colors): #F5F5DC\nBlue Assorted (2 colors): #A7C7E7\nAssorted (4 colors): #FFFDD0\nAssorted (3 colors): #FFFDD0\nAssorted (2 colors): #FFFDD0",
     "favicon": "shopify://shop_images/apricot_instagram.png",
     "content_for_index": [],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
