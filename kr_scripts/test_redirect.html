@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+  <script>
+    /*
+    The code below is placed on the default site. The other site where you want to send visitors from Japan is apricotstudios.jp
+    */
+    var jp_site = 'https://apricotstudios.jp';
+    async function is_cafe24_admin() {
+      var res = window !== window.top && document.referrer.includes('cafe24');
+      if (res) {
+        console.log('detected access from cafe24 admin editor, not redirecting');
+      }
+      return res;
+    }
+    async function is_jp_by_ip(url) {
+      var res = await fetch(url);
+      if (!res.ok) {
+        throw new Error(`HTTP response error: ${res.status}`);
+      }
+      var country = '';
+      if (url.includes('/country')) {
+        country = await res.text();
+      } else {
+        var res = await res.json()
+        country = res['country'];
+      }
+      console.log(`detected country from ip: ${country}`);
+      return country == 'JP'
+    }
+    async function lang_position(first, second) {
+      var res = navigator.languages.indexOf(first);
+      if (res < 0) {
+        res = navigator.languages.indexOf(second);
+      }
+      return res;
+    }
+    async function is_jp() {
+      console.log(`navigator.languages: ${navigator.languages}`);
+      var lang_kr = await lang_position('ko', 'ko-KR');
+      var lang_jp = await lang_position('ja', 'ja-JP');
+      console.log(`lang_kr: ${lang_kr}`);
+      console.log(`lang_jp: ${lang_jp}`);
+      if (lang_jp >= 0 && (lang_kr < 0 || lang_jp < lang_kr)) {
+        console.log('detected jp in browser locales');
+        return true;
+      } else if (lang_kr >= 0 && (lang_jp < 0 || lang_jp > lang_kr)) {
+        console.log('detected kr in browser locales, higher than jp');
+        return false;
+      }
+      console.log('did not detect jp in browser locales, fallback to ip based location check');
+      for (const url of ['https://ipapi.co/country/', 'https://ipinfo.io/json']) {
+        try {
+          console.log(`calling ${url}`);
+          res = await is_jp_by_ip(url);
+          return res;
+        } catch (error) {
+          console.log(error);
+        }
+      }
+    }
+    (async () => {
+      const cafe24Admin = await is_cafe24_admin();
+      if (!cafe24Admin) {
+        const jp = await is_jp();
+        if (jp) {
+          console.log('redirect to Japan');
+          window.location = jp_site;
+        } else {
+          console.log('no action');
+        }
+      }
+    })();
+  </script>
+</head>
+
+<body>
+  !!! test !!!
+</body>
+</html>
