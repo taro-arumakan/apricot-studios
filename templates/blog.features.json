@@ -1,0 +1,64 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "logo_list_rmh9f4": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_eK3XTV": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/GBH_USE_LOGO_BLACK.png",
+            "logo_width": 250,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_eK3XTV"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section-spacing {padding-block-start: 0; padding-block-end: 0;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "subheading": "",
+        "title": "",
+        "items_per_row": 3,
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "custom_css": [
+        ".section-spacing--tight {padding-block-end: 5rem;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "show_blog_title": false,
+        "show_rss_feed": false,
+        "show_tags": false,
+        "posts_per_page": 5,
+        "feature_first_blog_post": false,
+        "featured_blog_post_color_scheme": "",
+        "show_category": false,
+        "show_excerpt": false,
+        "show_read_more": false
+      }
+    }
+  },
+  "order": [
+    "logo_list_rmh9f4",
+    "main"
+  ]
+}
