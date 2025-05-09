@@ -58,6 +58,16 @@
             "payment_button_text_color": ""
           }
         },
+        "complementary_products": {
+          "type": "complementary_products",
+          "settings": {
+            "title": "Pairs well with",
+            "products_count": 2,
+            "show_below_gallery": false,
+            "stack_products": false,
+            "show_quick_buy": true
+          }
+        },
         "text_xeYwHJ": {
           "type": "text",
           "settings": {
@@ -103,16 +113,6 @@
             "collapse_content": false,
             "show_below_gallery": true
           }
-        },
-        "complementary_products": {
-          "type": "complementary_products",
-          "settings": {
-            "title": "Pairs well with",
-            "products_count": 2,
-            "show_below_gallery": true,
-            "stack_products": false,
-            "show_quick_buy": true
-          }
         }
       },
       "block_order": [
@@ -123,12 +123,12 @@
         "quantity_selector",
         "payment_terms",
         "buy_buttons",
+        "complementary_products",
         "text_xeYwHJ",
         "accordion_ijj9cY",
         "accordion_rrWxwf",
         "accordion_gyFmq3",
-        "description",
-        "complementary_products"
+        "description"
       ],
       "custom_css": [
         "h5 > strong {color: indianred;}"
