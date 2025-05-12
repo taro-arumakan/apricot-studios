@@ -15,6 +15,8 @@
         "image_kEftGE": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/2025_may_bag_pc.png",
+            "mobile_image": "shopify://shop_images/2025_may_bag_m.png",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -40,6 +42,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/main_banner_pc_20250326_1.jpg",
+            "mobile_image": "shopify://shop_images/main_banner_m_20250326_1.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -65,6 +69,8 @@
         "image_ngMHYE": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/main_banner_pc_20250326_2.jpg",
+            "mobile_image": "shopify://shop_images/main_banner_m_20250326_2.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -90,6 +96,8 @@
         "slide-2": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/main_banner_pc_20250326_3.jpg",
+            "mobile_image": "shopify://shop_images/main_banner_m_20250326_3.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -115,6 +123,8 @@
         "image_TjEhQU": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/main_banner_pc_20250326_4.jpg",
+            "mobile_image": "shopify://shop_images/main_banner_m_20250326_4.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -140,6 +150,8 @@
         "image_LLdVH7": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/main_banner_pc_20250326_5.jpg",
+            "mobile_image": "shopify://shop_images/main_banner_m_20250326_5.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -165,6 +177,8 @@
         "image_QrLKnj": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/main_banner_pc_20250326_6.jpg",
+            "mobile_image": "shopify://shop_images/main_banner_m_20250326_6.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -190,6 +204,8 @@
         "image_DkqXb6": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/main_banner_pc_20250326_7.jpg",
+            "mobile_image": "shopify://shop_images/main_banner_m_20250326_7.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -215,6 +231,8 @@
         "image_wKb4A4": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/main_banner_pc_20250326_8.jpg",
+            "mobile_image": "shopify://shop_images/main_banner_m_20250326_8.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -249,7 +267,6 @@
         "image_DkqXb6",
         "image_wKb4A4"
       ],
-      "disabled": true,
       "custom_css": [
         "carousel-navigation {--text-color: 255 209 179 !important;}"
       ],
@@ -307,7 +324,7 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "automated-collection",
+            "collection": "best",
             "products_count": 8,
             "title": "<strong>⭐️BEST</strong>",
             "link_url": "",
@@ -336,7 +353,7 @@
         "collection_WMLhtN": {
           "type": "collection",
           "settings": {
-            "collection": "hydrogen",
+            "collection": "new-2025-spring",
             "products_count": 8,
             "title": "<strong>❤️ New 25 Spring</strong>",
             "link_url": "",
@@ -424,6 +441,7 @@
       "settings": {
         "color_scheme": "scheme-3",
         "image_size": "auto",
+        "image": "shopify://shop_images/about_3.jpg",
         "image_url": "shopify://pages/about",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
@@ -441,6 +459,7 @@
         "image_with_text_UUHqiC": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/24winter_cover.jpg",
             "title": "24 Winter",
             "heading_tag": "h3",
             "content": "",
@@ -451,6 +470,7 @@
         "image_with_text_PT8YHF": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/24autumn_cover.jpg",
             "title": "24 Autumn",
             "heading_tag": "h3",
             "content": "",
@@ -461,6 +481,7 @@
         "image_with_text_AprbLU": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/23Winter_cover.jpg",
             "title": "23 Winter",
             "heading_tag": "h3",
             "content": "",
@@ -471,6 +492,7 @@
         "image_with_text_VKQHz9": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/23Atumn_cover.jpg",
             "title": "23 Autumn",
             "heading_tag": "h3",
             "content": "",
