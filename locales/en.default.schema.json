@@ -1231,6 +1231,12 @@
           "stack_products": "Stack products",
           "show_quick_buy": "Show quick buy"
         },
+        "cross_sell_product": {
+          "name": "Cross-sell product",
+          "show_below_gallery": "Show below gallery on desktop",
+          "show_quick_buy": "Show quick buy",
+          "cross_sell_product": "Product to show"
+        },
         "offers": {
           "name": "Offers",
           "stack_offers": "Stack offers",

@@ -56,12 +56,12 @@
               max_image_zoom_level: section.settings.max_image_zoom_level -%}
         {%- endif -%}
 
-        {%- render 'product-info', 
-          product: product, 
+        {%- render 'product-info',
+          product: product,
           product_form_id: product_form_id,
-          center_basic_info: section.settings.center_basic_info, 
-          has_content_below_gallery: has_content_below_gallery, 
-          context: 'main_product' 
+          center_basic_info: section.settings.center_basic_info,
+          has_content_below_gallery: has_content_below_gallery,
+          context: 'main_product'
         -%}
 
         {%- comment -%}On Prestige, some content may be on the left part below the product gallery{%- endcomment -%}
@@ -97,6 +97,10 @@
 
                 {%- when 'complementary_products' -%}
                   {%- render 'complementary-products', product: product, block: block -%}
+
+                {%- when 'cross_sell_product' -%}
+                  {%- render 'cross-sell-product', block: block -%}
+
               {%- endcase -%}
             {%- endfor -%}
           </div>
@@ -822,6 +826,34 @@ quick buy information in a template, that will be extracted in JS, which ensures
           "type": "checkbox",
           "id": "show_quick_buy",
           "label": "t:sections.main_product.blocks.complementary_products.show_quick_buy",
+          "default": true
+        }
+      ]
+    },
+    {
+      "type": "cross_sell_product",
+      "name": "t:sections.main_product.blocks.cross_sell_product.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:global.text.heading",
+        },
+        {
+          "type": "product",
+          "id": "cross_sell_product",
+          "label": "t:sections.main_product.blocks.cross_sell_product.cross_sell_product",
+        },
+        {
+          "type": "checkbox",
+          "id": "show_below_gallery",
+          "label": "t:sections.main_product.blocks.cross_sell_product.show_below_gallery",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "show_quick_buy",
+          "label": "t:sections.main_product.blocks.cross_sell_product.show_quick_buy",
           "default": true
         }
       ]

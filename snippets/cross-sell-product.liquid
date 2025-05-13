@@ -1,0 +1,27 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+COMPLEMENTARY PRODUCTS
+----------------------------------------------------------------------------------------------------------------------
+
+This snippet renders the complementary products block used on product page. Because those complementary products can
+be added both below the gallery or on the right, this is extracted into its own snippet to reduce code duplication
+
+********************************************
+Supported variables
+********************************************
+
+* title: the title of the block
+* cross_sell_product: the product to show
+* block: the block containing the information to render itself
+{%- endcomment -%}
+
+<cross-sell-product class="block" intent="cross-sell">
+  <div class="cross-sell-products">
+    <div class="cross-sell-products__header {% if block.settings.show_below_gallery and block.settings.stack_products %}justify-center{% endif %}">
+      <p class="h5">{{  block.settings.title }}</p>
+    </div>
+    <div class="cross-sell-products__product-list">
+      {%- render 'product-card-horizontal', product:  block.settings.cross_sell_product, show_quick_buy: block.settings.show_quick_buy -%}
+    </div>
+  </div>
+</cross-sell-product>

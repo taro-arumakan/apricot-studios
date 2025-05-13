@@ -422,6 +422,11 @@ Supported variables
               {%- render 'complementary-products', product: product, block: block -%}
             {%- endunless -%}
 
+          {%- when 'cross_sell_product' -%}
+            {%- unless block.settings.show_below_gallery -%}
+              {%- render 'cross-sell-product', block: block -%}
+            {%- endunless -%}
+
           {%- when 'text' -%}
             {%- if block.settings.text != blank -%}
               <div class="prose">
@@ -538,7 +543,7 @@ Supported variables
             {%- endif -%}
         {%- endcase -%}
       {%- endcapture -%}
-      
+
       {%- if allow_block_group and inside_block_group_context == false -%}
         {%- assign inside_block_group_context = true -%}
         <div class="product-info__block-group {{ block_group_class }}" data-group-type="{{ block_group_name }}">
