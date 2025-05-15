@@ -115,15 +115,28 @@
         {%- endif -%}
 
         {%- if section.settings.show_checkout_button -%}
+          {% liquid
+            assign disable_checkout_button = true
+            for line_item in cart.items
+              unless line_item.product.template_suffix contains 'complementary-only'
+                assign disable_checkout_button = false
+                break
+              endunless
+            endfor
+          %}
           {%- capture checkout_button -%}
-            {{- 'cart.general.checkout' | t -}}
+            {%- unless disable_checkout_button -%}
+              {{- 'cart.general.checkout' | t -}}
 
-            {%- if section.settings.show_price_in_checkout_button -%}
-              <span class="cart-drawer__button-price">{{- cart.total_price | money -}}</span>
-            {%- endif -%}
+              {%- if section.settings.show_price_in_checkout_button -%}
+                <span class="cart-drawer__button-price">{{- cart.total_price | money -}}</span>
+              {%- endif -%}
+            {%- else -%}
+              <div>商品を追加して下さい</div>
+            {%- endunless -%}
           {%- endcapture -%}
 
-          {%- render 'button', type: 'submit', content: checkout_button, name: 'checkout', stretch: true -%}
+          {%- render 'button', type: 'submit', content: checkout_button, name: 'checkout', stretch: true, disabled: disable_checkout_button-%}
         {%- endif -%}
       </div>
     </form>

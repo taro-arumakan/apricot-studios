@@ -140,19 +140,36 @@
                   {%- endif -%}
                 {%- endif -%}
 
-                {%- if section.settings.show_accelerated_buttons and additional_checkout_buttons -%}
-                  <div class="additional-checkout-buttons additional-checkout-buttons--vertical">
-                    {{- content_for_additional_checkout_buttons -}}
-                  </div>
-                {% endif %}
-
+                {% liquid
+                  assign disable_checkout_button = true
+                  for line_item in cart.items
+                    unless line_item.product.template_suffix contains 'complementary-only'
+                      assign disable_checkout_button = false
+                      break
+                    endunless
+                  endfor
+                %}
+                {%- unless disable_checkout_button -%}
+                  {%- if section.settings.show_accelerated_buttons and additional_checkout_buttons -%}
+                    <div class="additional-checkout-buttons additional-checkout-buttons--vertical">
+                      {{- content_for_additional_checkout_buttons -}}
+                    </div>
+                  {% endif %}
+                {%- endunless -%}
                 <noscript>
                   {%- assign update_button = 'cart.general.update_cart' | t -%}
                   {%- render 'button', type: 'submit', content: update_button, style: 'outline' -%}
                 </noscript>
 
-                {%- assign checkout_button = 'cart.general.checkout' | t -%}
-                {%- render 'button', type: 'submit', content: checkout_button, name: 'checkout' -%}
+                {%- capture checkout_button -%}
+                  {%- unless disable_checkout_button -%}
+                    {{- 'cart.general.checkout' | t -}}
+                    <span class="cart-drawer__button-price">{{- cart.total_price | money -}}</span>
+                  {%- else -%}
+                    <div>商品を追加して下さい</div>
+                  {%- endunless -%}
+                {%- endcapture -%}
+                {%- render 'button', type: 'submit', content: checkout_button, name: 'checkout', disabled: disable_checkout_button -%}
               </div>
             </div>
           </div>
