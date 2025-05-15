@@ -107,7 +107,7 @@
       "view_in_space": "自分のスペースで見る",
       "taxes_included": "税込み価格",
       "taxes_excluded": "税抜き価格",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">配送料<\/a>は購入手続き時に計算されます。",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">配送料</a>は購入手続き時に計算されます。",
       "size_chart": "サイズ表",
       "available_colors_count": {
         "one": "{{ count }} カラー対応",
@@ -140,7 +140,9 @@
       "price_at_each": "{{ price }}/ユニットで"
     },
     "rating_count": {
-      "other": "{{ count }}件"
+      "other": "{{ count }}件",
+      "zero": "",
+      "one": ""
     },
     "inventory": {
       "in_stock": "在庫あり",
@@ -167,13 +169,14 @@
   },
   "collection": {
     "general": {
-      "empty_collection": "コレクションを空にする",
+      "empty_collection": "該当する商品がありません。",
       "all_collections": "コレクション",
       "no_collections": "このストアにコレクションはありません。",
       "continue_shopping": "ショッピングを開始する"
     },
     "products_count": {
-      "other": "{{ count }} 製品"
+      "other": "{{ count }} 製品",
+      "one": ""
     },
     "faceting": {
       "filters": "フィルター",
@@ -220,7 +223,8 @@
       "comment_sent": "あなたのコメントが送信されました。ショップオーナーが承認すると表示されます！",
       "comment_published": "あなたのコメントが掲載されました",
       "count": {
-        "other": "{{ count }} コメント"
+        "other": "{{ count }} コメント",
+        "one": ""
       }
     }
   },
@@ -408,10 +412,12 @@
       "no_results": "結果は見つかりませんでした"
     },
     "results_count": {
-      "other": "{{count}}件"
+      "other": "{{count}}件",
+      "one": ""
     },
     "results_count_for_terms": {
-      "other": "「{{ terms }}」の検索結果{{count}}件"
+      "other": "「{{ terms }}」の検索結果{{count}}件",
+      "one": ""
     }
   },
   "gift_card": {
@@ -474,6 +480,29 @@
     "shop_the_look": {
       "view_products": "商品を見る",
       "view_product": "商品を見る"
+    },
+    "quick_order_list": {
+      "products": "",
+      "variants": "",
+      "quantity": "",
+      "price": "",
+      "total": "",
+      "remove": "",
+      "quantity_rules": "",
+      "volume_pricing": "",
+      "volume_pricing_available": "",
+      "show_variants": "",
+      "minimum_of": "",
+      "maximum_of": "",
+      "increment_of": "",
+      "view_cart": "",
+      "remove_all": "",
+      "item_count": {
+        "zero": "",
+        "one": "",
+        "other": ""
+      },
+      "product_subtotal": ""
     }
   }
 }
