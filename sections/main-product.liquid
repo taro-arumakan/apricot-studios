@@ -37,6 +37,16 @@
   }
 </style>
 
+<script>
+  var tlAdvancedFGProductVariantIdMapInventory = new Map();
+  {% for variant in product.variants %}
+      tlAdvancedFGProductVariantIdMapInventory.set("{{ variant.id }}", {
+          available: {{ variant.available }},
+          inventory_quantity: {{ variant.inventory_quantity }}
+      })
+  {% endfor %}
+</script>
+
 {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
 {%- capture product_form_id -%}product-form-main-{{ product.id }}-{{ section.id }}{%- endcapture -%}
 
