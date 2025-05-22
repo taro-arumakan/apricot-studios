@@ -139,7 +139,8 @@
         "description"
       ],
       "custom_css": [
-        "h5 > strong {color: indianred;}"
+        "h5 > strong {color: indianred;}",
+        ".product-gallery__media > * {object-fit: cover; aspect-ratio: 10/13;}"
       ],
       "settings": {
         "color_scheme": "",

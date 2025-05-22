@@ -58,6 +58,15 @@
             "payment_button_text_color": ""
           }
         },
+        "cross_sell_product_rFAPFQ": {
+          "type": "cross_sell_product",
+          "settings": {
+            "title": "",
+            "cross_sell_product": "wrapping-kit",
+            "show_below_gallery": false,
+            "show_quick_buy": true
+          }
+        },
         "complementary_products": {
           "type": "complementary_products",
           "settings": {
@@ -123,6 +132,7 @@
         "quantity_selector",
         "payment_terms",
         "buy_buttons",
+        "cross_sell_product_rFAPFQ",
         "complementary_products",
         "text_xeYwHJ",
         "accordion_ijj9cY",
@@ -131,7 +141,8 @@
         "description"
       ],
       "custom_css": [
-        "h5 > strong {color: indianred;}"
+        "h5 > strong {color: indianred;}",
+        ".product-gallery__media > * {object-fit: cover; aspect-ratio: 10/13;}"
       ],
       "settings": {
         "color_scheme": "",

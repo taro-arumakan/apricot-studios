@@ -20,7 +20,9 @@
         "show_view_cart_button": true,
         "show_checkout_button": true,
         "show_price_in_checkout_button": true,
-        "cross_sell_products": [],
+        "cross_sell_products": [
+          "wrapping-kit"
+        ],
         "cross_sell_title": "Complete with",
         "cross_sell_stack_products": false
       }
