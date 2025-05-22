@@ -1258,7 +1258,8 @@
           "show_below_gallery": "Show below gallery on desktop",
           "liquid_info": "Replaces inline content if specified.",
           "page": "Page",
-          "page_info": "Replaces inline content if specified."
+          "page_info": "Replaces inline content if specified.",
+          "open_by_default": "Collapsible content is open by default"
         },
         "liquid": {
           "name": "Liquid"
