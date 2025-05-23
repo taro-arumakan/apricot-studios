@@ -15,6 +15,7 @@ Supported variables
 * block: the block containing the information to render itself
 {%- endcomment -%}
 
+{% if block.settings.cross_sell_product.available %}
 <cross-sell-product class="block" intent="cross-sell">
   <div class="cross-sell-products">
     <div class="cross-sell-products__header {% if block.settings.show_below_gallery and block.settings.stack_products %}justify-center{% endif %}">
@@ -25,3 +26,4 @@ Supported variables
     </div>
   </div>
 </cross-sell-product>
+{% endif %}
