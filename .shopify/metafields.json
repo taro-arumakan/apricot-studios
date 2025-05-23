@@ -30,46 +30,6 @@
       }
     },
     {
-      "key": "queries",
-      "namespace": "shopify--discovery--product_search_boost",
-      "name": "Search product boosts",
-      "description": "List of search queries for which a product gets higher rank in search results",
-      "type": {
-        "name": "list.single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "related_products",
-      "namespace": "shopify--discovery--product_recommendation",
-      "name": "Related products",
-      "description": "List of related products",
-      "type": {
-        "name": "list.product_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "related_products_display",
-      "namespace": "shopify--discovery--product_recommendation",
-      "name": "Related products settings",
-      "description": "Determines how related products are displayed along with algorithmic product recommendations",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "complementary_products",
-      "namespace": "shopify--discovery--product_recommendation",
-      "name": "Complementary products",
-      "description": "List of complementary products",
-      "type": {
-        "name": "list.product_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
       "key": "size_table_html",
       "namespace": "custom",
       "name": "size_table_html",
@@ -77,6 +37,26 @@
       "type": {
         "name": "multi_line_text_field",
         "category": "TEXT"
+      }
+    },
+    {
+      "key": "recommended-age-group",
+      "namespace": "shopify",
+      "name": "Recommended age group",
+      "description": "Identifies the suitable age range for a product, typically toys and games; e.g. babies, teens",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
+      }
+    },
+    {
+      "key": "toy-game-material",
+      "namespace": "shopify",
+      "name": "Toy/Game material",
+      "description": "Identifies the main material used in a toy or game, such as plastic or wood",
+      "type": {
+        "name": "list.metaobject_reference",
+        "category": "REFERENCE"
       }
     }
   ],
