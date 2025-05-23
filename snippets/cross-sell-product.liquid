@@ -15,15 +15,13 @@ Supported variables
 * block: the block containing the information to render itself
 {%- endcomment -%}
 
-{% if block.settings.cross_sell_product.avalable %}
 <cross-sell-product class="block" intent="cross-sell">
   <div class="cross-sell-products">
     <div class="cross-sell-products__header {% if block.settings.show_below_gallery and block.settings.stack_products %}justify-center{% endif %}">
       <p class="h5">{{  block.settings.title }}</p>
     </div>
     <div class="cross-sell-products__product-list">
-      {%- render 'product-card-horizontal', product:  block.settings.cross_sell_product, show_quick_buy: block.settings.show_quick_buy -%}
+      {%- render 'product-card-horizontal', product: block.settings.cross_sell_product, show_quick_buy: block.settings.show_quick_buy -%}
     </div>
   </div>
 </cross-sell-product>
-{% endif %}
