@@ -82,13 +82,15 @@
         },
         "accordion_ijj9cY": {
           "type": "accordion",
+          "disabled": true,
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
             "title": "商品詳細",
             "content": "{{ product.metafields.custom.product_description | metafield_tag }}",
             "liquid": "",
-            "page": ""
+            "page": "",
+            "open_by_default": false
           }
         },
         "accordion_rrWxwf": {
@@ -99,7 +101,8 @@
             "title": "サイズ",
             "content": "",
             "liquid": "{{ product.metafields.custom.size_table_html }}",
-            "page": ""
+            "page": "",
+            "open_by_default": false
           }
         },
         "accordion_gyFmq3": {
@@ -111,7 +114,8 @@
             "title": "",
             "content": "",
             "liquid": "",
-            "page": "product-care"
+            "page": "product-care",
+            "open_by_default": false
           }
         },
         "description": {
