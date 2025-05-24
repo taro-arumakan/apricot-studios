@@ -15,15 +15,15 @@
         "image_DkqXb6": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/newborn_banner_pc.png",
-            "mobile_image": "shopify://shop_images/newborn_banner_m.png",
+            "image": "shopify://shop_images/new_born_life_set_pc.png",
+            "mobile_image": "shopify://shop_images/new_born_life_set_m.png",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "",
-            "button_1_link": "shopify://collections/newborn-comfort-kit",
+            "button_1_link": "shopify://collections/new-born-life-set",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -352,9 +352,9 @@
         "collection_WMLhtN": {
           "type": "collection",
           "settings": {
-            "collection": "newborn-comfort-kit",
+            "collection": "new-born-life-set",
             "products_count": 8,
-            "title": "<strong>🍀 Newborn Life Set</strong>",
+            "title": "<strong>🍀 New Born Life Set</strong>",
             "link_url": "",
             "link_text": "View all"
           }
