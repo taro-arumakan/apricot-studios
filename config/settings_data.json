@@ -36,6 +36,11 @@
         "type": "shopify://apps/salepify/blocks/advanced-free-gift/f616e94d-36ae-45cb-9d98-57804196c7a7",
         "disabled": false,
         "settings": {}
+      },
+      "back-in-stock-restock-alerts-4bb73be2-b7c2-4870-949f-c528145452a3": {
+        "type": "shopify://apps/back-in-stock-restock-alerts/blocks/main/4bb73be2-b7c2-4870-949f-c528145452a3",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
@@ -260,7 +265,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "fb_sync\\:product_description {display: none;}"
+      "fb_sync\\:product_description {display: none;}",
+      ".restock-rocket-button {margin-top: 0 !important; height: 44px !important;}"
     ]
   }
 }
