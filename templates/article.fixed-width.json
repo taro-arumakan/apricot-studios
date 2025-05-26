@@ -12,9 +12,10 @@
     "main": {
       "type": "main-article",
       "custom_css": [
-        ".prose {text-align: center;}",
-        ".prose:not(.prose--tight) :where(:not(meta, span) + *) {margin-block-start: 1.25rem; max-width: 500px; margin-left: auto; margin-right: auto;}",
-        "h3.h2 {width: fit-content;}"
+        ".prose {text-align: center; font-size: 1.025rem;}",
+        ".prose:not(.prose--tight) :where(:not(meta, span) + *) {margin-block-start: 1.25rem; max-width: 800px; margin-left: auto; margin-right: auto;}",
+        ".article__wrapper > .v-stack {max-width: 800px; margin-left: auto; margin-right: auto;}",
+        ".prose > p > img {width: 100%;}"
       ],
       "settings": {
         "color_scheme": "",
