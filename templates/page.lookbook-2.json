@@ -49,6 +49,28 @@
         "image_with_text_QkpHhK": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/25summer_cover.jpg",
+            "title": "25 SUMMER",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "shopify://pages/lookbook-2025-summer",
+            "link_text": ""
+          }
+        },
+        "image_with_text_PeNNPF": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/25spring_cover.jpg",
+            "title": "25 SPRING",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "shopify://pages/lookbook-25-spring",
+            "link_text": ""
+          }
+        },
+        "image_with_text_9EfpUB": {
+          "type": "image_with_text",
+          "settings": {
             "image": "shopify://shop_images/24winter_cover.jpg",
             "title": "24 WINTER",
             "heading_tag": "h3",
@@ -93,6 +115,8 @@
       },
       "block_order": [
         "image_with_text_QkpHhK",
+        "image_with_text_PeNNPF",
+        "image_with_text_9EfpUB",
         "image_with_text_TdA7QY",
         "image_with_text_9hzrqV",
         "image_with_text_fAeFpA"
