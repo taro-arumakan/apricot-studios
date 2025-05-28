@@ -13,7 +13,7 @@
     "product_rating_color": "#1c1c1c",
     "product_on_sale_accent": "#e32c2b",
     "product_sold_out_badge_background": "#efefef",
-    "product_custom_badge_background": "#1c1c1c",
+    "product_custom_badge_background": "{{ shop.brand.colors.primary[0].background }}",
     "success_color": "#307a07",
     "warning_color": "#ed8a00",
     "error_color": "#cb2b2b",
