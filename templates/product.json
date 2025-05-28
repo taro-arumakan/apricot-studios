@@ -39,6 +39,12 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_z7qprd": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% style %}\n  .liquid {\n    color: black;\n  }\n{% endstyle %}\n{%liquid\nif product.tags contains \"campaign_eligible\"\necho 'こちらの商品はオリジナルビーチボールプレゼントキャンペーンの対象商品です。'\nendif\n%}"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -91,7 +97,8 @@
             "title": "商品詳細",
             "content": "{{ product.metafields.custom.product_description | metafield_tag }}",
             "liquid": "",
-            "page": ""
+            "page": "",
+            "open_by_default": false
           }
         },
         "accordion_rrWxwf": {
@@ -102,7 +109,8 @@
             "title": "サイズ",
             "content": "",
             "liquid": "{{ product.metafields.custom.size_table_html }}",
-            "page": ""
+            "page": "",
+            "open_by_default": false
           }
         },
         "accordion_gyFmq3": {
@@ -113,7 +121,8 @@
             "title": "",
             "content": "",
             "liquid": "",
-            "page": "product-care"
+            "page": "product-care",
+            "open_by_default": false
           }
         },
         "description": {
@@ -129,6 +138,7 @@
         "variant_picker",
         "title",
         "price",
+        "liquid_z7qprd",
         "quantity_selector",
         "payment_terms",
         "buy_buttons",
