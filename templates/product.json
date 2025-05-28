@@ -39,7 +39,7 @@
             "show_taxes_notice": false
           }
         },
-        "liquid_z7qprd": {
+        "liquid_Ce8n8h": {
           "type": "liquid",
           "settings": {
             "liquid": "{% style %}\n  .liquid {\n    color: black;\n  }\n{% endstyle %}\n{%liquid\nif product.tags contains \"campaign_eligible\"\necho 'こちらの商品はオリジナルビーチボールプレゼントキャンペーンの対象商品です。'\nendif\n%}"
@@ -138,7 +138,7 @@
         "variant_picker",
         "title",
         "price",
-        "liquid_z7qprd",
+        "liquid_Ce8n8h",
         "quantity_selector",
         "payment_terms",
         "buy_buttons",
