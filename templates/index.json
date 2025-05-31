@@ -321,35 +321,6 @@
         "text_color": ""
       }
     },
-    "featured_collections_QpQCga": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_WMLhtN": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-born-life-set",
-            "products_count": 8,
-            "title": "<strong>🍀 New Born Life Set</strong>",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_WMLhtN"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": ""
-      }
-    },
     "featured_collections_za7pDX": {
       "type": "featured-collections",
       "blocks": {
@@ -366,6 +337,35 @@
       },
       "block_order": [
         "collection_VUBmqc"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_QpQCga": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_WMLhtN": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-born-life-set",
+            "products_count": 8,
+            "title": "<strong>🍀 New Born Life Set</strong>",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_WMLhtN"
       ],
       "settings": {
         "color_scheme": "",
@@ -491,6 +491,28 @@
         "image_with_text_UUHqiC": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/25summer_cover.jpg",
+            "title": "25 Summer",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "shopify://pages/lookbook-2025-summer",
+            "link_text": ""
+          }
+        },
+        "image_with_text_Qbk6zP": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/25spring_cover.jpg",
+            "title": "25 Spring",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "shopify://pages/lookbook-25-spring",
+            "link_text": ""
+          }
+        },
+        "image_with_text_33kKnk": {
+          "type": "image_with_text",
+          "settings": {
             "image": "shopify://shop_images/24winter_cover.jpg",
             "title": "24 Winter",
             "heading_tag": "h3",
@@ -535,6 +557,8 @@
       },
       "block_order": [
         "image_with_text_UUHqiC",
+        "image_with_text_Qbk6zP",
+        "image_with_text_33kKnk",
         "image_with_text_PT8YHF",
         "image_with_text_AprbLU",
         "image_with_text_VKQHz9"
